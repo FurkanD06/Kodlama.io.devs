@@ -11,7 +11,7 @@ import kodlama.io.Kodlama.io.Devs.business.responses.GetByIdProgrammingLanguageR
 public interface ProgrammingLanguageService {
 	List<GetAllProgrammingLanguageResponse> getAll();
 	GetByIdProgrammingLanguageResponse getById(int id);
-	void add(CreateProgrammingLanguageRequest createProgrammingLanguageRequest) throws Exception;
+	void add(CreateProgrammingLanguageRequest createProgrammingLanguageRequest);
 	void delete(DeleteProgrammingLanguageRequest deleteProgrammingLanguageRequest);
-	void update(UpdateProgrammingLanguageRequest pdateProgrammingLanguageRequest)throws Exception;
+	void update(UpdateProgrammingLanguageRequest pdateProgrammingLanguageRequest);
 }
